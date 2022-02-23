@@ -28,7 +28,8 @@ namespace Koleksiyonlar
             isimler2.Add("İlker");
             Console.WriteLine(isimler2[4]);
             Console.WriteLine(isimler2[0]);
-            //koleksiyonlarda dgerlerı kaybetmemızı engelleıycek bir altyapı vardır.
+            //normal arraylerde sonradan ekleme oldugunda yeni bir "heap" acıp yeni eklenen verileri oraya eklıyor ama eskileri kalkıyor iş bunun çözümü olarak
+            //koleksiyonlarda degerlerı kaybetmemızı engelleıycek bir altyapı vardır.
         }
     }
 }
