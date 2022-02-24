@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GenericsIntro
 {
-    class MyList<T>
+    class MyList<T>  //generic class 
     {
 
         T[] items;
@@ -35,7 +35,7 @@ namespace GenericsIntro
 
         public T[] Items
         {
-            get { return items; } //eleman isimlerinide gormek içins
+            get { return items; } //eleman isimlerinide gormek için
         }
 
     }
