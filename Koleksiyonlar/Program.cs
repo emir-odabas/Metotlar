@@ -18,7 +18,9 @@ namespace Koleksiyonlar
             //Console.WriteLine(isimler[4]);
             //Console.WriteLine(isimler[0]);
 
-            List<string> isimler2 = new List<string>();
+
+            //List arka planda bir array i yonetıyor
+            List<string> isimler2 = new List<string>() {"engin","murat","kerem","halil" };
 
             Console.WriteLine(isimler2[0]);
             Console.WriteLine(isimler2[1]);
@@ -28,7 +30,8 @@ namespace Koleksiyonlar
             isimler2.Add("İlker");
             Console.WriteLine(isimler2[4]);
             Console.WriteLine(isimler2[0]);
-            //koleksiyonlarda dgerlerı kaybetmemızı engelleıycek bir altyapı vardır.
+            //normal arraylerde sonradan ekleme oldugunda yeni bir "heap" acıp yeni eklenen verileri oraya eklıyor ama eskileri kalkıyor iş bunun çözümü olarak
+            //koleksiyonlarda degerlerı kaybetmemızı engelleıycek bir altyapı vardır.
         }
     }
 }
