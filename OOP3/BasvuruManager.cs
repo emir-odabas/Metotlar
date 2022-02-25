@@ -15,7 +15,7 @@ namespace OOP3
             //
             krediManager.Hesapla();
             loggerService.Log();
-        }
+        } 
 
         //birden fazla kredinin hesabını yapmak için list kullanıyoruz türüde IKrediManager olsun diyoruz
         public void KrediOnBilgilendirmesiYap(List<IKrediManager>krediler)

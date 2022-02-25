@@ -36,6 +36,9 @@ namespace OOP3
             //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
 
 
+            
+
+
 
 
 
